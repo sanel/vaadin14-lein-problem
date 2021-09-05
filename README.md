@@ -5,10 +5,10 @@ A small project that demonstrate issue with (I guess)
 
 ## Problem description
 
-Leiningen version: 2.9.6.
+Leiningen version: `2.9.6`. Tested on OpenJDK versions `1.8.0_292` and `15.0.2`.
 
 Run `lein deps` in this project. It will spin up CPU to 100%, run for
-some time and exit with this error:
+some time, and exit with this error:
 
 ```edn
 {:clojure.main/message
