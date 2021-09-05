@@ -31,6 +31,4 @@ On other hand, if you generate `pom.xml` with `lein pom` and run
 
 The similar thing is done with
 [tools.deps](https://github.com/clojure/tools.deps.alpha). Run
-`clj -Sverbose` and will pull dependencies without problem
-
-
+`clj -Sverbose` and will pull dependencies without a problem.
